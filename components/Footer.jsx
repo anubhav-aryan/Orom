@@ -10,19 +10,19 @@ const Footer = () => {
     <Marquee className='h-10 overflow-y-hidden'>
         <div className='p-5'>
         <span className='mr-10 ml-10 text-2xl'>
-        •  your tagline goes here  •
+        •  your ride, your way  •
         </span>
         <span className='mr-10 ml-10 text-2xl'>
-        •  your tagline goes here  •
+        •  your ride, your way  •
         </span>
         <span className='mr-10 ml-10 text-2xl'>
-        •  your tagline goes here  •
+        •  your ride, your way  •
         </span>
         <span className='mr-10 ml-10 text-2xl'>
-        •  your tagline goes here  •
+        •  your ride, your way  •
         </span>
         <span className='mr-10 ml-10 text-2xl'>
-        •  your tagline goes here  •
+        •  your ride, your way  •
         </span>
         </div>
     </Marquee>
