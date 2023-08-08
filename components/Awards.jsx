@@ -23,12 +23,10 @@ const awards = () => {
         </div>
       </div>
 
-      <div style = {myFont2.style} className='flex flex-col text-center justify-center'>
-        <h5 className='p-6 pb-1 pt-11 text-4xl flex flex-col'>YOUR TESTIMONIALS GO HERE</h5>
-        <p className='py-1 text-2xl flex-col'>"slideshow"</p>
+
       </div>
 
-    </div>
+    
   )
 }
 
