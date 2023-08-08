@@ -55,6 +55,8 @@ const Contact = () => {
             <p style={myFont2.style} className="flex justify-end text-right pr-24">
             Have questions, ideas, or ready to embark on a journey of innovation? The OROM Corp. team is here to connect with you! We're excited to hear from you and explore how we can partner to make your dreams a reality.
             </p>
+            <p>hariomshandilya005@gmail.com</p>
+            <p> 8489494210 </p>
           </div>
         </div>
       </div>
