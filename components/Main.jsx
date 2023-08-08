@@ -15,8 +15,9 @@ const Main = () => {
     <div className="w-full md:h-screen p-2 flex flex-col items-center py-16 bg-[#172241] text-[#F3F4F4] relative">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-1 px-28">
         <div style={myFont.style} className="col-span-2 pl-8">
-          <h3 className="pt-6  text-4xl">Trust is what we create</h3>
-          <h1 className="py-0 text-8xl">One Liner</h1>
+          <h3 className="pt-6  text-5xl">Trust is what we create</h3>
+          
+          <p className="content-center pl-20 pt-4 text-xl">Elevating Excellence, Enriching Futures</p>
 
           <div style={myFont2.style} className="border-2 boreder-[#C0C0C0] rounded-full italic w-72 px-7 py-1 mb-11 mt-11 flex">
             Download our app

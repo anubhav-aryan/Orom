@@ -19,12 +19,12 @@ const Contact = () => {
 
       <div className="absolute pt-[14rem] flex flex-row z-40">
         <div className="px-11">
-          <div className="">
+          <div className="w-1/2">
             <h3 style={myFont1.style} className="text-5xl pl-24">
               About us
             </h3>
           </div>
-          <div className="">
+          <div className="w-1/2">
             <p style={myFont2.style} className="pl-24">
             At OROM Corporation, we don't just provide services; we craft remarkable
             experiences that elevate your journey towards success. Our diverse array of
@@ -51,19 +51,12 @@ const Contact = () => {
               Contact us
             </h3>
           </div>
-          <div>
+          <div className="">
             <p style={myFont2.style} className="flex justify-end text-right pr-24">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+            Have questions, ideas, or ready to embark on a journey of innovation? The OROM Corp. team is here to connect with you! We're excited to hear from you and explore how we can partner to make your dreams a reality.
             </p>
+            <p>hariomshandilya005@gmail.com</p>
+            <p> 8489494210 </p>
           </div>
         </div>
       </div>

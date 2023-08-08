@@ -44,7 +44,7 @@ const Navbar = () => {
                     <Link href = '/'>Home</Link>
                 </li>
                 <li className='p-2 pl-4 pr-4 text-2xl'>
-                    <Link href = '/#team' scroll={false}>Our Teams</Link>
+                    <Link href = '/#team' scroll={false}>Our Team </Link>
                 </li>
                 <li className='p-2 pl-4 pr-4 text-2xl'>
                     <Link href = '/#awards' scroll={false}>Awards</Link>

@@ -7,6 +7,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Navbar />
       <Component {...pageProps} />
+      <link rel="icon" href="/images/favicon.ico" sizes="any" />
     </>
   );
 }

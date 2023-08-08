@@ -14,9 +14,7 @@ const team = () => {
       <h2 style = {myFont.style} className="text-4xl text-center pt-6">Our Team</h2>
 
       <div className='flex p-7'>
-        <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-          <Image src={oromLogo} className='rounded-xl' alt='/' />
-        </div>
+        
         <div className='flex'>
           <div><h1 className='text-7xl font-bold p-3'>"</h1></div>
           <div className='pt-11'>
@@ -26,39 +24,54 @@ const team = () => {
         </div>
       </div>
 
-      <div className='flex flex-row'>
+      <div className='flex flex-row p-8'>
         <div className='w-full p-2'>
           <Image
-            src={oromLogo}
+            src={"/images/hariom.png"}
+            width={220}
+            height={220}
             alt="Picture 1"
+            className='rounded-full w-64 h-64'
           />
-          <h5 className='text-3xl'>Name</h5>
-          <p className="text-2xl mt-0 italic">designation</p>
+          <h5 className='text-2xl'>HariOm Shandilya </h5>
+          <p className="text-xl mt-0 italic">MD & CEO </p>
         </div>
         <div className='w-full p-2'>
           <Image
-            src={oromLogo}
-            alt="Picture 1"
+            Image
+            src={"/images/brahmanaggarwal.png"}
+            width={220}
+            height={220}
+            alt="Picture 2"
+            className='rounded-full w-64 h-64'
           />
-          <h5 className='text-3xl'>Name</h5>
-          <p className="text-2xl mt-0 italic">designation</p>
+          <h5 className='text-2xl'>Brahman Aggarwal</h5>
+          <p className="text-xl mt-0 italic">CTO(IT)</p>
         </div>
         <div className='w-full p-2'>
           <Image
-            src={oromLogo}
-            alt="Picture 1"
+            Image
+            src={"/images/muthiahkakalikrishnan.jpeg"}
+            width={220}
+            height={220}
+            alt="Picture 3"
+            className='rounded-full w-64 h-64 object-cover'
           />
-          <h5 className='text-3xl'>Name</h5>
-          <p className="text-2xl mt-0 italic">designation</p>
+          <h5 className='text-2xl'>Muthiah K A Kalikrishnan</h5>
+          <p className="text-xl mt-0 italic">CTO (Electronics)</p>
         </div>
-        <div className='w-full p-2'>
+        {/* <div className='w-full p-2'>
           <Image
-            src={oromLogo}
+            Image
+            src={"/images/hariom.png"}
+            width={220}
+            height={220}
+            alt="Picture 1"
             alt="Picture 1"
           />
           <h5 className='text-3xl '>Name</h5>
           <p className="mt-0 italic text-2xl">designation</p>
-        </div>
+        </div> */}
       </div>
 
     </div>
