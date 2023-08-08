@@ -20,7 +20,8 @@ const team = () => {
         <div className='flex'>
           <div><h1 className='text-7xl font-bold p-3'>"</h1></div>
           <div className='pt-11'>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          <p>Introducing the Brilliant Minds Behind OROM Corporation 
+          At OROM Corporation, our achievements are the result of a collaborative effort put forth by the brilliant minds that make up our hard-working team. Each person brings their own distinct set of abilities, experiences, and passions to the table, which contributes to the rich tapestry of innovation and excellence that characterises our organisation.</p>
           </div>
         </div>
       </div>
