@@ -26,16 +26,21 @@ const Contact = () => {
           </div>
           <div className="">
             <p style={myFont2.style} className="pl-24">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+            At OROM Corporation, we don't just provide services; we craft remarkable
+            experiences that elevate your journey towards success. Our diverse array of
+            offerings, spanning educational services, cutting-edge IT solutions, and seamless
+            logistics support, reflects our unwavering commitment to your growth.
+            Founded in 2021 by the visionary Hariom Shandilya, an exemplary student at
+            Vellore Institute of Technology, OROM Corp. has emerged as a beacon of
+            excellence in the world of Consumer Services. Our journey is one of passion,
+            dedication, and a relentless pursuit of innovation.
+            At OROM, "customer support" is not just a department; it's a philosophy that
+            echoes through every facet of our organization.
+            As we stride forward, our vision remains clear: to be the catalyst of transformation
+            in the services industry. OROM Corp. is not just a company; it's a testament to the
+            power of dreams, determination, and a burning desire to make a difference.
+            Join us on this exhilarating expedition towards excellence. Your dreams, our
+            services – together, there's no limit to what we can achieve.
             </p>
           </div>
         </div>
