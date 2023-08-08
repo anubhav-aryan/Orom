@@ -11,6 +11,8 @@
   "dependencies": {
     "@next/font": "^13.4.9",
     "autoprefixer": "10.4.14",
+    "embla-carousel-class-names": "^8.0.0-rc11",
+    "embla-carousel-react": "^8.0.0-rc11",
     "next": "13.4.9",
     "postcss": "8.4.25",
     "react": "18.2.0",
