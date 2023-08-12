@@ -4,6 +4,7 @@ import Image from 'next/image';
 import localFont from '@next/font/local';
 import Marquee from 'react-fast-marquee';
 import Footer from './Footer';
+import ProjectCarousel  from './EmblaCarousel'
 
 const myFont = localFont({src: "../public/fonts/Crima.otf"})
 
@@ -24,7 +25,7 @@ const team = () => {
         </div>
       </div>
 
-      <div className='flex flex-row p-8'>
+      <div className='flex flex-row p-8 pl-36'>
         <div className='w-full p-2'>
           <Image
             src={"/images/hariom.png"}
@@ -60,6 +61,7 @@ const team = () => {
           <h5 className='text-2xl'>Muthiah K A Kalikrishnan</h5>
           <p className="text-xl mt-0 italic">CTO (Electronics)</p>
         </div>
+        
         {/* <div className='w-full p-2'>
           <Image
             Image

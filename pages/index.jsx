@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Main from '@components/Main';
 import Team from '../components/Team';
-import Awards from '../components/Awards';
+import Awards from '../components/Life';
 import Contact from '../components/Contact';
 
 

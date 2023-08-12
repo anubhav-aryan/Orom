@@ -8,54 +8,54 @@ const ProjectCarousel = () => {
   return (
     <div className={`w-full -z-10 flex gap-2 font-Helvetica justify-center items-center`}>
         <CarouselProvider
-          naturalSlideHeight={1000}
-          naturalSlideWidth={1000}
+          naturalSlideHeight={1}
+          naturalSlideWidth={5}
           totalSlides={5}
           visibleSlides={1}
           infinite={true}
           dragEnabled={true}
           isPlaying={false}
-          className="w-3/4 h-72 text-white flex items-center justify-center"
+          className="w-3/4 h-72 text-white flex items-center justify-center px-96"
         >
           <Slider className="w-full h-full">
-            <Slide index={0} className="w-full h-full">
+            <Slide index={0} className="">
               <Image
                 src = '/images/image9.jpeg'
-                height = {10000}
-                width = {10000}
-                className='w-full h-full'
+                height = {500}
+                width = {500}
+                className='justify-center items-center'
               />
             </Slide>
-            <Slide index={1} className="w-full h-full">
+            <Slide index={1} className="">
               <Image
-                src = '/images/image9.jpeg'
-                height = {10000}
-                width = {10000}
-                className='w-full h-full'
+                src = '/images/image8.jpeg'
+                height = {500}
+                width = {500}
+                className=''
               />
             </Slide>
-            <Slide index={2} className="w-full h-full">
+            <Slide index={2} className="">
               <Image
-                src = '/images/image9.jpeg'
-                height = {10000}
-                width = {10000}
-                className='w-full h-full'
+                src = '/images/image7.jpeg'
+                height = {500}
+                width = {500}
+                className=''
               />
             </Slide>
-            <Slide index={3} className="w-full h-full">
+            <Slide index={3} className="">
               <Image
-                src = '/images/image9.jpeg'
-                height = {10000}
-                width = {10000}
-                className='w-full h-full'
+                src = '/images/image10.jpeg'
+                height = {500}
+                width = {500}
+                className=''
               />
             </Slide>
-            <Slide index={4} className="w-full h-full">
+            <Slide index={4} className="">
               <Image
-                src = '/images/image9.jpeg'
-                height = {10000}
-                width = {10000}
-                className='w-full h-full'
+                src = '/images/image11.jpeg'
+                height = {500}
+                width = {500}
+                className='justify-center'
               />
             </Slide>
           </Slider>

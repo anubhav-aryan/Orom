@@ -2,6 +2,7 @@ import React from "react";
 import localFont from "@next/font/local";
 import Image from "next/image";
 import ellipse from "../public/images/Ellipse10.png";
+import { FaGithub, FaLinkedinIn, FaInstagram, BiPhoneCall } from 'react-icons/fa';
 
 const myFont1 = localFont({ src: "../public/fonts/Crima.otf" });
 const myFont2 = localFont({ src: "../public/fonts/Inter-Light-BETA.ttf" });
@@ -10,21 +11,21 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="bg-[#172241] flex-row text-white relative h-[80vh]"
+      className="bg-[#172241] flex-col text-white relative h-[80vh]"
     >
       <div className="absolute z-40">
         <Image src={ellipse} className="pt-11 top-0 " />
         <Image src={ellipse} className="absolute top-0 pl-24 pt-11 " />
       </div>
 
-      <div className="absolute pt-[14rem] flex flex-row z-40">
+      <div className="absolute pt-[14rem] flex-col z-40">
         <div className="px-11">
-          <div className="w-1/2">
-            <h3 style={myFont1.style} className="text-5xl pl-24">
+          <div className="w-1/2 justify-center algin">
+            <h3 style={myFont1.style} className="text-5xl pl-24 text-center">
               About us
             </h3>
           </div>
-          <div className="w-1/2">
+          <div className="">
             <p style={myFont2.style} className="pl-24">
             At OROM Corporation, we don't just provide services; we craft remarkable
             experiences that elevate your journey towards success. Our diverse array of
@@ -45,7 +46,37 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="px-11">
+        <div className='flex items-center p-4 justify-center'>
+          <a
+            href='#'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 m-4'>
+              <FaLinkedinIn size={25}/>
+            </div>
+          </a>
+          <a
+            href='https://in.linkedin.com/company/oromcorp'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 m-4'>
+            <FaGithub size={25}/>
+            </div>
+          </a>
+          <a
+            href='#'
+            target='_blank'
+            rel='noreferrer'
+          >
+          <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 m-4'>
+            <FaInstagram size={25}/>
+          </div>
+          </a>
+        </div>
+
+        {/* <div className="px-11">
           <div>
             <h3 style={myFont1.style} className="flex text-5xl justify-end pr-24">
               Contact us
@@ -58,7 +89,7 @@ const Contact = () => {
             <p>hariomshandilya005@gmail.com</p>
             <p> 8489494210 </p>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className=" justify-center content-center text-center pt-1 flex absolute bottom-0 w-full p-5">
