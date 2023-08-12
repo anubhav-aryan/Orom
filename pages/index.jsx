@@ -3,6 +3,7 @@ import Main from '@components/Main';
 import Team from '../components/Team';
 import Awards from '../components/Life';
 import Contact from '../components/Contact';
+import Realfooter from '@components/Realfooter';
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <Team />
       <Awards />
       <Contact />
+      <Realfooter />
     </div>
   );
 }
