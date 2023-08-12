@@ -46,7 +46,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className='flex items-center p-4 justify-center'>
+        {/* <div className='flex items-center p-4 justify-center'>
           <a
             href='#'
             target='_blank'
@@ -74,7 +74,7 @@ const Contact = () => {
             <FaInstagram size={25}/>
           </div>
           </a>
-        </div>
+        </div> */}
 
         {/* <div className="px-11">
           <div>
@@ -91,10 +91,7 @@ const Contact = () => {
           </div>
         </div> */}
       </div>
-
-      <div className=" justify-center content-center text-center pt-1 flex absolute bottom-0 w-full p-5">
-        <p className="text-center">© Orom Corp. All Rights Reserved 2023-24</p>
-      </div>
+      
     </div>
   );
 };
