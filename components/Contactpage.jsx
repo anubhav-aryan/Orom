@@ -8,12 +8,14 @@ function Contactpage() {
     <div class="container px-5 py-12 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
       <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
       <section class="text-gray-400 bg-gray-900 body-font relative">
-  <div class="container px-5 py- mx-auto "> 
-    <div class="flex flex-col text-center w-full">
-      <h1 class="sm:text-3xl text-2xl font-medium title-font text-white">Contact Us</h1>
-      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Got Any Question? Get In Touch With Us! <br /> 11:00 AM - 6:30 PM  </p>
+  <div class="container px-5 py- mx-auto flex flex-row"> 
+    <div class="flex text-center w-full pb-9">
+      <div className='pt-9'>
+      <h1 class="sm:text-3xl text-2xl font-medium title-font text-white pb-9">Contact Us!</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base ">Got Any Question? Get In Touch With Us! <br /> 11:00 AM - 6:30 PM  </p>
+      </div>
     </div>
-    <div class="lg:w-1/2 md:w-2/3 mx-auto">
+    <div class="lg:w-1/2 md:w-2/3 mx-auto flex flex-row">
       <div class="flex flex-wrap -m-2">
         <div class="p-2 w-1/2">
           <div class="relative">
@@ -42,7 +44,7 @@ function Contactpage() {
 </section>
       </div>
     </div>
-    <div class="bg-gray-800 bg-opacity-75">
+    <div className="bg-gray-800 bg-opacity-75">
       <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
         <p class="text-gray-400 text-sm text-center sm:text-left">© 2023 Orom Corp  
           <a class="text-gray-500 ml-1" target="_blank">is a registered trademark Orom Corp Pvt Ltd – All Rights Reserved</a>
