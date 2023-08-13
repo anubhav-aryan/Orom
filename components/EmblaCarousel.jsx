@@ -8,8 +8,8 @@ const ProjectCarousel = () => {
   return (
     <div className={`w-full -z-10 flex gap-2 font-Helvetica justify-center items-center`}>
         <CarouselProvider
-          naturalSlideHeight={1}
-          naturalSlideWidth={5}
+          naturalSlideHeight={100}
+          naturalSlideWidth={100}
           totalSlides={5}
           visibleSlides={1}
           infinite={true}
@@ -21,8 +21,8 @@ const ProjectCarousel = () => {
             <Slide index={0} className="">
               <Image
                 src = '/images/image9.jpeg'
-                height = {500}
-                width = {500}
+                height = {1000}
+                width = {1000}
                 className='justify-center items-center'
               />
             </Slide>

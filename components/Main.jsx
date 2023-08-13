@@ -17,7 +17,7 @@ const Main = () => {
         <div style={myFont.style} className="col-span-2 pl-8">
           <h3 className="pt-6  text-5xl">Trust is what we create</h3>
           
-          <p className="content-center pl-20 pt-4 text-xl">Elevating Excellence, Enriching Futures</p>
+          <p className="content-center pl-20 pt-4 text-xl">Elevating Excellence, Enriching Futures.</p>
 
           <div style={myFont2.style} className="border-2 boreder-[#C0C0C0] rounded-full italic w-72 px-7 py-1 mb-11 mt-11 flex">
             Download our app
