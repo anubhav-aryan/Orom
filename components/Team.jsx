@@ -6,7 +6,7 @@ import Marquee from 'react-fast-marquee';
 import Footer from './Footer';
 import ProjectCarousel  from './EmblaCarousel'
 
-const myFont = localFont({src: "../public/fonts/Crima.otf"})
+const myFont = localFont({src: "../public/fonts/times.ttf"})
 
 const team = () => {
   return (

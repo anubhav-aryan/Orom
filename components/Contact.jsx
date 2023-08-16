@@ -4,7 +4,7 @@ import Image from "next/image";
 import ellipse from "../public/images/Ellipse10.png";
 import { FaGithub, FaLinkedinIn, FaInstagram, BiPhoneCall } from 'react-icons/fa';
 
-const myFont1 = localFont({ src: "../public/fonts/Crima.otf" });
+const myFont1 = localFont({ src: "../public/fonts/times.ttf" });
 const myFont2 = localFont({ src: "../public/fonts/Inter-Light-BETA.ttf" });
 
 const Contact = () => {

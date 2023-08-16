@@ -1,7 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
-import { CarouselProvider, Slider, Slide, Dot } from 'pure-react-carousel';
+import { CarouselProvider, Slider, Slide, Dot, ButtonBack, ButtonNext } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
+import leftArrow from "../public/images/leftarrow.svg"
+import rightArrow from "../public/images/rightarrow.svg"
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
 const ProjectCarousel = () => {
@@ -15,57 +18,67 @@ const ProjectCarousel = () => {
           infinite={true}
           dragEnabled={true}
           isPlaying={false}
-          className="w-3/4 h-72 text-white flex items-center justify-center px-96"
+          interval={2200}
+          className="w-full h-full text-white flex items-center justify-center px-8 lg:px-64"
         >
-          <Slider className="w-full h-full">
-            <Slide index={0} className="">
+          <ButtonBack className='pr-4'> 
+          <Image
+            src={leftArrow}
+            height={75}
+          />
+          </ButtonBack>
+          <Slider className="w-full h-[43.75rem] rounded-xl">
+            <Slide index={0} className="rounded-xl">
               <Image
-                src = '/images/image9.jpeg'
-                height = {1000}
-                width = {1000}
-                className='justify-center items-center'
+                src = '/images/image7.jpeg'
+                height = {2000}
+                width = {2000}
+                className='w-full rounded-xl px-2'
               />
             </Slide>
             <Slide index={1} className="">
               <Image
                 src = '/images/image8.jpeg'
-                height = {500}
-                width = {500}
-                className=''
+                height = {2000}
+                width = {2000}
+                className='w-full rounded-xl px-2'
               />
             </Slide>
             <Slide index={2} className="">
               <Image
                 src = '/images/image7.jpeg'
-                height = {500}
-                width = {500}
-                className=''
+                height = {2000}
+                width = {2000}
+                className='w-full rounded-xl px-2'
               />
             </Slide>
             <Slide index={3} className="">
               <Image
                 src = '/images/image10.jpeg'
-                height = {500}
-                width = {500}
-                className=''
+                height = {2000}
+                width = {2000}
+                className='w-full rounded-xl px-2'
               />
             </Slide>
             <Slide index={4} className="">
               <Image
                 src = '/images/image11.jpeg'
-                height = {500}
-                width = {500}
-                className='justify-center'
+                height = {2000}
+                width = {2000}
+                className='w-full rounded-xl px-2'
               />
             </Slide>
           </Slider>
-          <div className="absolute bottom-2">
-            <Dot key={0} slide={0} />
-            <Dot key={1} slide={1} />
-            <Dot key={2} slide={2} />
-            <Dot key={3} slide={3} />
-            <Dot key={4} slide={4} />
-          </div>
+
+
+          <ButtonNext className='pl-4'>
+          <Image
+            src={rightArrow}
+            height={75}
+          />
+          </ButtonNext>
+
+
         </CarouselProvider>
       </div>
   );

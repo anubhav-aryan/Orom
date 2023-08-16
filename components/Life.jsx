@@ -6,7 +6,7 @@ import awardsImage from '../public/images/awards.jpg'
 import ProjectCarousel  from './EmblaCarousel'
 
 
-const myFont = localFont({src: "../public/fonts/Crima.otf"})
+const myFont = localFont({src: "../public/fonts/times.ttf"})
 const myFont2 = localFont({src: "../public/fonts/Inter-Light-BETA.ttf"})
 
 const awards = () => {
@@ -25,13 +25,7 @@ const awards = () => {
           />
         </div> */}
       </div>
-
-
-
-      
-          <ProjectCarousel />
-        
-
+        <ProjectCarousel />
       </div>
 
     

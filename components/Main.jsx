@@ -7,7 +7,7 @@ import playstore from "../public/images/playstore.png";
 import localFont from "@next/font/local";
 import Footer from "./Footer";
 
-const myFont = localFont({ src: "../public/fonts/Crima.otf" });
+const myFont = localFont({ src: "../public/fonts/times.ttf" });
 const myFont2 = localFont({src: "../public/fonts/Inter-Light-BETA.ttf"})
 
 const Main = () => {

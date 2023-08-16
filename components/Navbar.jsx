@@ -7,7 +7,7 @@ import oromLogo from '../public/images/logo.webp'
 import localFont from '@next/font/local';
 import animateScroll from "react-scroll";
 
-const myFont = localFont({src: "../public/fonts/Crima.otf"})
+const myFont = localFont({src: "../public/fonts/times.ttf"})
 
 const Navbar = () => {
 
