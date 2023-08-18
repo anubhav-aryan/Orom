@@ -10,23 +10,16 @@ const myFont2 = localFont({ src: "../public/fonts/Inter-Light-BETA.ttf" });
 const Contact = () => {
   return (
     <div
-      id="contact"
-      className="bg-[#172241] flex-col text-white relative h-[80vh]"
+      id="Contact"
+      className="bg-[#172241] flex-col text-white py-11"
     >
-      <div className="absolute z-40">
-        <Image src={ellipse} className="pt-11 top-0 " />
-        <Image src={ellipse} className="absolute top-0 pl-24 pt-11 " />
-      </div>
 
-      <div className="absolute pt-[14rem] flex-col z-40">
         <div className="px-11">
-          <div className="w-1/2 justify-center algin">
-            <h3 style={myFont1.style} className="text-5xl pl-24 text-center">
-              About us
-            </h3>
+          <div className="justify-center algin">
+            <h2 style = {myFont1.style} className="text-4xl text-center py-6">About Us</h2>
           </div>
           <div className="">
-            <p style={myFont2.style} className="pl-24">
+            <p style={myFont2.style} className="max-md:text-sm max-md:text-center">
             At OROM Corporation, we don't just provide services; we craft remarkable
             experiences that elevate your journey towards success. Our diverse array of
             offerings, spanning educational services, cutting-edge IT solutions, and seamless
@@ -45,53 +38,6 @@ const Contact = () => {
             </p>
           </div>
         </div>
-
-        {/* <div className='flex items-center p-4 justify-center'>
-          <a
-            href='#'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 m-4'>
-              <FaLinkedinIn size={25}/>
-            </div>
-          </a>
-          <a
-            href='https://in.linkedin.com/company/oromcorp'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 m-4'>
-            <FaGithub size={25}/>
-            </div>
-          </a>
-          <a
-            href='#'
-            target='_blank'
-            rel='noreferrer'
-          >
-          <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 m-4'>
-            <FaInstagram size={25}/>
-          </div>
-          </a>
-        </div> */}
-
-        {/* <div className="px-11">
-          <div>
-            <h3 style={myFont1.style} className="flex text-5xl justify-end pr-24">
-              Contact us
-            </h3>
-          </div>
-          <div className="">
-            <p style={myFont2.style} className="flex justify-end text-right pr-24">
-            Have questions, ideas, or ready to embark on a journey of innovation? The OROM Corp. team is here to connect with you! We're excited to hear from you and explore how we can partner to make your dreams a reality.
-            </p>
-            <p>hariomshandilya005@gmail.com</p>
-            <p> 8489494210 </p>
-          </div>
-        </div> */}
-      </div>
-      
     </div>
   );
 };

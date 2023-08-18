@@ -50,13 +50,13 @@ const Navbar = () => {
                     <Link href = '/#Life' scroll={false}>Life at Orom</Link>
                 </li>
                 <li className='p-2 pl-4 pr-4 text-2xl'>
-                    <Link href = '/#contact' scroll={false}>Contact us</Link>
+                    <Link href = '/#Contact' scroll={false}>Contact</Link>
                 </li>
             </ul>
 
             {/* MOBILE BUTTON */}
             <div onClick={handleNav} className='block sm:hidden z-10'>
-                {nav ? (<AiOutLineClose size={20}/>) : (<AiOutlineMenu size={20}/>)}
+                {nav ? (<AiOutlineMenu size={20}/>) : (<AiOutlineMenu size={20}/>)}
             </div>
 
             {/*MOBILE MENU*/}
@@ -71,13 +71,13 @@ const Navbar = () => {
                     <Link href = '/'>Home</Link>
                 </li>
                 <li className='p-4 text-4xl hover:text-gray-500'>
-                    <Link href = '/#team'>Our Team</Link>
+                    <Link onClick={handleNav} href = '/#Team'>Our Team</Link>
                 </li>
                 <li className='p-4 text-4xl hover:text-gray-500'>
-                    <Link href = '/award'>Awards</Link>
+                    <Link onClick={handleNav} href = '/#Life'>Awards</Link>
                 </li>
                 <li className='p-4 text-4xl hover:text-gray-500'>
-                    <Link href = '/contact'>Contact Us</Link>
+                    <Link onClick={handleNav} href = '/#Contact'>Contact Us</Link>
                 </li>
             </ul>
             </div>

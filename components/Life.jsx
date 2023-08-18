@@ -4,6 +4,7 @@ import Image from 'next/image'
 import awardsImage from '../public/images/awards.jpg'
 // import { images } from './images'
 import ProjectCarousel  from './EmblaCarousel'
+import Footer from './Footer'
 
 
 const myFont = localFont({src: "../public/fonts/times.ttf"})
@@ -11,7 +12,7 @@ const myFont2 = localFont({src: "../public/fonts/Inter-Light-BETA.ttf"})
 
 const awards = () => {
   return (
-    <div id = 'Life' className='content-center justify-center bg-[#172241] text-white'>
+    <div id = 'Life' className='content-center justify-center bg-[#172241] text-white relative'>
 
       <div>
         <div>
@@ -26,9 +27,8 @@ const awards = () => {
         </div> */}
       </div>
         <ProjectCarousel />
+        <Footer />
       </div>
-
-    
   )
 }
 
