@@ -5,7 +5,6 @@ import React, { useState, useEffect } from 'react';
 import Image from 'next/image'
 import oromLogo from '../public/images/logo.webp'
 import localFont from '@next/font/local';
-import animateScroll from "react-scroll";
 
 const myFont = localFont({src: "../public/fonts/times.ttf"})
 
@@ -47,10 +46,10 @@ const Navbar = () => {
                     <Link href = '/#team' scroll={false}>Our Team </Link>
                 </li>
                 <li className='p-2 pl-4 pr-4 text-2xl'>
-                    <Link href = '/#Life' scroll={false}>Life at Orom</Link>
+                    <Link href = '/#life' scroll={false}>Life at Orom</Link>
                 </li>
                 <li className='p-2 pl-4 pr-4 text-2xl'>
-                    <Link href = '/#Contact' scroll={false}>Contact</Link>
+                    <Link href = '/#contact' scroll={false}>Contact</Link>
                 </li>
             </ul>
 

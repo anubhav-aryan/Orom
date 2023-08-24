@@ -1,12 +1,37 @@
-import { Image } from "pure-react-carousel";
 import React from "react";
+import { useState } from "react";
+  
 
 function Contactpage() {
+
+  async function handleSubmit(e) {
+    e.preventDefault();
+    const data = new FormData(e.currentTarget);
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'post',
+        body: new URLSearchParams(data),
+      });
+      if (!response.ok) {
+        throw new Error(`Invalid response: ${response.status}`);
+      }
+      alert('Thanks for contacting us, we will get back to you soon!');
+    } catch (err) {
+      console.error(err);
+      alert("We can't submit the form, try again later?");
+    }
+  }
+
+  const [fullname, setFullname] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
+
   return (
     <div className="">
-        <div className="w-screen px-5 py-12 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col text-gray-400 bg-gray-900 body-font relative">
+        <form onSubmit={handleSubmit} className="w-screen px-5 py-12 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col text-gray-400 bg-gray-900 body-font relative">
               <div className="px-5 mx-auto flex max-md:flex-col w-full">
-                <div className="text-center w-full pb-9">
+                <div className="text-center w-1/2 pb-9">
                     <h1 className="sm:text-3xl text-2xl font-medium title-font text-white pb-9">
                       Contact Us!
                     </h1>
@@ -28,7 +53,11 @@ function Contactpage() {
                         <input
                           type="text"
                           id="name"
-                          name="name"
+                          value={fullname}
+                          onChange={(e) => {
+                            setFullname(e.target.value);
+                          }}
+                          name="fullname"
                           className="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-indigo-500 focus:bg-gray-900 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                         />
                       </div>
@@ -45,6 +74,10 @@ function Contactpage() {
                           type="email"
                           id="email"
                           name="email"
+                          value={email}
+                          onChange={(e) => {
+                            setEmail(e.target.value);
+                          }}
                           className="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-indigo-500 focus:bg-gray-900 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                         />
                       </div>
@@ -57,11 +90,16 @@ function Contactpage() {
                         >
                           Message
                         </label>
-                        <textarea
+                        <input
+                          type="text"
                           id="message"
                           name="message"
+                          value={message}
+                          onChange={(e) => {
+                            setSubject(e.target.value);
+                          }}
                           className="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-indigo-500 focus:bg-gray-900 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-                        ></textarea>
+                        ></input>
                       </div>
                     </div>
                     <div className="p-2 w-full">
@@ -73,7 +111,7 @@ function Contactpage() {
                   </div>
                 </div>
               </div>
-        </div>
+        </form>
         <div className="bg-gray-800 bg-opacity-75">
           <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
             <p className="text-gray-400 text-sm text-center sm:text-left">

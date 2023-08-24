@@ -1,17 +1,14 @@
 import React from 'react'
-import oromLogo from '../public/images/logo.webp'
 import Image from 'next/image';
 import localFont from '@next/font/local';
-import Marquee from 'react-fast-marquee';
 import Footer from './Footer';
-import ProjectCarousel  from './EmblaCarousel'
 
 const myFont = localFont({src: "../public/fonts/times.ttf"})
 
 const team = () => {
   return (
     <div className='flex flex-col relative text-white bg-[#172241] min-h-screen'>
-    <div id='Team' className='container mx-auto px-4 content-center'>
+    <div id='team' className='container mx-auto px-4 content-center'>
       <h2 style = {myFont.style} className="text-4xl text-center pt-6">Our Team</h2>
 
       <div className='flex p-7'>

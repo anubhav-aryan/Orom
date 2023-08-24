@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
+import Spline from '@splinetool/react-spline';
 import oromLogo from "../public/images/logo.webp";
 import appstore from "../public/images/appstore.png";
 import playstore from "../public/images/playstore.png";
@@ -19,14 +19,9 @@ const Main = () => {
           
           <p className="content-center pt-4 text-xl text-center">Elevating Excellence, Enriching Futures.</p>
 
-          <div style={myFont2.style} className=" border-2 boreder-[#C0C0C0] rounded-full italic w-72 px-7 py-1 mb-11 mt-11 flex">
-            Download our app
-            <Image src={appstore} className="h-6 w-6 ml-6 mr-4" />
-            <Image src={playstore} className="h-6 w-6" />
-          </div>
         </div>
-        <div className="h-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-          <Image src={oromLogo} className="rounded-xl" alt="/" />
+        <div className="w-1/2 h-full">
+          <Spline className="spline" scene="https://prod.spline.design/XAWPKcciBpct6ERk/scene.splinecode" />
         </div>
       </div>
       <Footer />

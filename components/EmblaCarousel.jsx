@@ -7,9 +7,7 @@ import rightArrow from "../public/images/rightarrow.svg"
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import { useState, useEffect } from 'react';
 import {
-  useWindowSize,
   useWindowWidth,
-  useWindowHeight,
 } from '@react-hook/window-size';
 
 const ProjectCarousel = () => {
@@ -37,7 +35,7 @@ const ProjectCarousel = () => {
           interval={2200}
           className="w-full text-white flex items-center justify-center px-8 lg:px-64"
         >
-          <ButtonBack className='pr-4'> 
+          <ButtonBack className='pr-4 max-md:hidden'> 
           <Image
             src={leftArrow}
             height={75}
@@ -87,7 +85,7 @@ const ProjectCarousel = () => {
           </Slider>
 
 
-          <ButtonNext className='pl-4'>
+          <ButtonNext className='pl-4 max-md:hidden'>
           <Image
             src={rightArrow}
             height={75}
