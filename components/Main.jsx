@@ -20,10 +20,16 @@ const Main = () => {
           <p className="content-center pt-4 text-xl text-center">Elevating Excellence, Enriching Futures.</p>
 
         </div>
-        <div className="w-1/2 h-full">
+        <div className="w-2/3 h-screen">
           <Spline className="spline" scene="https://prod.spline.design/XAWPKcciBpct6ERk/scene.splinecode" />
         </div>
       </div>
+
+      <div style={myFont2.style} className="italic w-72 px-7 flex absolute bottom-16">
+            <Image src={appstore} className="mx-10" />
+            <Image src={playstore} className="" />
+      </div>
+      
       <Footer />
     </div>
   );

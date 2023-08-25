@@ -9,7 +9,7 @@ const myFont2 = localFont({src: "../public/fonts/Inter-Light-BETA.ttf"})
 
 const awards = () => {
   return (
-    <div id = 'life' className='content-center justify-center bg-[#172241] text-white relative h-screen'>
+    <div id = 'life' className='content-center justify-center bg-[#172241] text-white relative h-full'>
 
       <div>
         <div>

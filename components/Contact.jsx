@@ -9,12 +9,12 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="bg-[#172241] flex-col text-white py-11"
+      className="bg-[#172241] flex-col text-white py-8"
     >
 
         <div className="px-11">
           <div className="justify-center algin">
-            <h2 style = {myFont1.style} className="text-4xl text-center py-6">About Us</h2>
+            <h2 style = {myFont1.style} className="text-4xl text-center pb-6">About Us</h2>
           </div>
           <div className="">
             <p style={myFont2.style} className="max-md:text-sm max-md:text-center">

@@ -39,6 +39,8 @@ function Contactpage() {
                       Got Any Question? Get In Touch With Us! <br /> 11:00 AM -
                       6:30 PM{" "}
                     </p>
+                    <p className="pt-3">8489494210</p>
+                    <p>hariomshandilya@oromcorp.com</p>
                 </div>
                 <div className="lg:w-1/2 md:w-2/3 mx-auto flex flex-row">
                   <div className="flex flex-wrap -m-2">
