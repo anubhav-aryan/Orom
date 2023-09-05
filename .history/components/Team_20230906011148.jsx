@@ -34,7 +34,7 @@ const team = () => {
           <h5 className='text-2xl text-center'>HariOm Shandilya </h5>
           <p className="text-xl mt-0 italic">MD & CEO </p>
         </div>
-        {/* <div className='p-2 flex flex-col items-center'>
+        <div className='p-2 flex flex-col items-center'>
           <Image
             Image
             src={"/images/brahmanaggarwal.png"}
@@ -57,7 +57,7 @@ const team = () => {
           />
           <h5 className='text-2xl text-center'>Muthiah K A Kalikrishnan</h5>
           <p className="text-xl mt-0 italic text-center">CTO (Electronics)</p>
-        </div> */}
+        </div>
       </div>
 
     </div>
