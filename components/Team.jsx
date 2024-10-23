@@ -44,7 +44,7 @@ const team = () => {
             className='rounded-full w-48 h-48'
           />
           <h5 className='text-2xl text-center'>Brahman Aggarwal</h5>
-          <p className="text-xl mt-0 italic text-center">CTO(IT)</p>
+          <p className="text-xl mt-0 italic text-center">CTO(IT)</p>clea
         </div>
         <div className='p-2 flex flex-col items-center'>
           <Image
